@@ -1,0 +1,42 @@
+body {
+	font-family: 'Lato', sans-serif;
+	color: #64634e;
+	font-weight: 400;
+}
+
+hr {
+	height: 4px;
+	background-color: #d0c4ab;
+	color: #d0c4ab;
+	padding: 0;
+}
+
+h1 {
+	font-size: 56px;
+	vertical-align: bottom;
+}
+
+img, embed, object, video {
+  	max-width: 100%;
+}
+
+
+.my-picture{
+	padding: 20px;
+	vertical-align: bottom;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+.text-medium {
+	font-weight: 400;
+}
+
+.img-responsive.my-picture {
+  	max-width: 30%;
+}
+
+
+
