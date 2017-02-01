@@ -1,15 +1,15 @@
 body {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	color: #64634e;
 	font-weight: 400;
+	background-image: url('../images/wave.jpg');
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 	background-repeat: no-repeat;
-}
-
-hr {
-	height: 4px;
-	background-color: #d0c4ab;
-	color: #d0c4ab;
-	padding: 0;
+	background-position: center center;
+	background-attachment: fixed;
 }
 
 h1 {
@@ -21,15 +21,13 @@ img, embed, object, video {
   	max-width: 100%;
 }
 
-
-
 p {
 	font-size: 16pt;
 	padding-left: 20px;
 }
 
 .row.header {
-	background-color: rgba(173,195,183,0.2);
+	background-color: rgba(255,255,255,0.5);
 }
 
 .text-thin {
@@ -55,7 +53,7 @@ p {
 }
 
 .name {
-	padding-top: 40px;
+	/*padding-top: 40px;*/
 	padding-left: 20px;
 	color: #88b04b;
 	font-size: 65pt;
@@ -65,10 +63,7 @@ p {
 	padding-left: 20px;
 }
 
-@media (max-width: 978px) {
-    .name {
-      padding-top:0;
-
-    }
-
+.blurb {
+	padding-top: 20px;
+}
 
