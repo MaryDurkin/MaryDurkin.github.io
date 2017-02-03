@@ -66,6 +66,7 @@ a {
   display: flex;
   flex-direction: column;
 }
+
 .header {
 	background-color: rgba(73,73,77,0.9);
 }
@@ -123,6 +124,11 @@ a {
 	background-color: rgba(73,73,77,0.9);
 	color: #a9bdb1;
 
+}
+
+.contact {
+	margin-left: 4%;
+	margin-right: 4%;
 }
 .profession {
 	padding-left: 20px;
