@@ -1,8 +1,19 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+/*
 body {
+    margin-bottom: 60px /* Height of the footer
+}
+*/
+
+body {
+	height: 100%;
 	font-family: 'Roboto', sans-serif;
-	color: #64634e;
+	color: #22252c;
 	font-weight: 400;
-	background-image: url('../images/Wave.jpg');
+	background-image: url('../images/wavebw.jpg');
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -10,6 +21,7 @@ body {
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-attachment: fixed;
+	margin-bottom: 150px;
 }
 
 h1 {
@@ -23,17 +35,56 @@ img, embed, object, video {
 
 p {
 	font-size: 16pt;
-	padding-left: 20px;
 }
 
-.row.header {
-	background-color: rgba(255,255,255,0.5);
+footer {
+	background-color: rgba(73,73,77,0.9);
+    position: absolute;
+    bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    /* height: 60px  Example value */
+}
+
+a {
+	color: #a9bdb1;
+}
+
+.container-fluid {
+	padding-left: 0;
+	padding-right: 0;
+}
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:   flex;
+  flex-wrap: wrap;
+}
+.row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+.header {
+	background-color: rgba(73,73,77,0.9);
+}
+
+.about-me {
+	color: white;
+}
+
+.top-7 {
+	margin-top: 7%;
+}
+.row-centered {
+	margin-left: 3%;
+	margin-right: 2%;
 }
 
 .text-thin {
-	font-family: 'Shadows Into Light', cursive;
+
 	font-weight: 100;
-	color: #47243b;
 }
 
 .text-medium {
@@ -54,16 +105,44 @@ p {
 
 .name {
 	/*padding-top: 40px;*/
+	font-family: 'Shadows Into Light', cursive;
+	text-align: center;
 	padding-left: 20px;
 	color: #88b04b;
 	font-size: 65pt;
 }
 
+.sub-header {
+	margin-left:7%;
+}
+.projects {
+	padding-top: 20px;
+	margin-left: 4%;
+	margin-right: 4%;
+	margin-bottom: 20px;
+	background-color: rgba(73,73,77,0.9);
+	color: #a9bdb1;
+
+}
 .profession {
 	padding-left: 20px;
 }
 
 .blurb {
+
+	font-size: 24px;
 	padding-top: 20px;
+	padding-left: 10px;
+	color: #a9bdb1;
+	font-weight: 100;
+}
+
+.skills{
+	margin-left: 20%;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 24px;
+	color: #a9bdb1;
+	font-weight: 100;
+	background-color: rgba(73,73,77,0.9);
 }
 

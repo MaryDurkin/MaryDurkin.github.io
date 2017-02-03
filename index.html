@@ -2,7 +2,9 @@
 <!-- saved from url=(0155)file:///Users/marywalsh/Documents/Udacity/Front%20End%20Web%20Design/Portfolio/Project%201%20-portfolio/HTML-CSS%20L3/bootstrap/bootstrap-prestructure.html -->
 <html>
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script type="text/javascript" src="js/jquery-2.1.4.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
@@ -14,58 +16,71 @@
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
   </head>
   <body>
-    <body>
     <div class="container-fluid">
-      <div class="row header">
+      <header class="row header">
+          <div class="col-md-5">
+            <h1 class="text-thin name">Mary Walsh</h1>
+          </div>
+          <div class="col-md-7 about-me">
+            <p class="text-thin blurb">I am a front-end developer based in the City of Brotherly Love. Starting with a BS in Computer Science my curiosity and passion took me across Europe and Asia. Now settled, I love coding, designing, writing and being a part of the creative, talented and generous tech community. I can also be found hiking, running, and painting.</p>
+            <!--
+             <p class="text-thin blurb">Hello World! I started out with a BS in Computer Science before my adventure took me in different directions across the seven seas. Now settled near the City of Brotherly Love and working as a web developer. I love coding, designing and writing. When not doing these things I can be found hiking, running or creating art.</p>
+            -->
+          </div>
+      </header>
        <!-- <div class="col-md-3">
           <img src="images/headshot.jpg" class="img-responsive my-picture" alt="headshot">
         </div> -->
-        <div class="col-md-6">
-          <p class="text-thin blurb">I started out with a BS in Computer Science before my adventure took me in different directions across the seven seas. Now settled near the City of Brotherly Love and working as a web developer. I love coding, designing and writing. When not doing these things I can be found hiking, running and painting.</p>
-        </div>
-        <div class="col-md-6 text-uppercase">
-          <h1 class="text-thin name">Mary Walsh</h1>
-          <h4 class="profession">Web Developer</h4>
-        </div>
-
-      </div>
 
 
-      <!-- remove main pic
-      <div class="row">
-        <div class="col-md-12">
+      <div class="row top-7">
+        <div class="col-md-12 sub-header">
+    	    <h2 class="text-medium">Some Recent Projects.....</h2>
+        </div>
+      </div>
+      <div class="row row-centered">
+        <div class="col-md-3 text-center projects">
 
-           <img src="images/winter-landscape.jpg"  class="img-responsive" data-toggle="modal" data-target="#large-pic" alt="winterlandscape painting">
+            <a href="http://marydurkin.github.io/frontend-nanodegree-arcade-game/" target="_blank"><img src="images/Frogger-sm.png"  class="img-responsive center-block" alt="frogger game">
+            <h3>HTML5-Canvas Game</h3></a>
+            <p>Re-make of the classic frogger game - Enjoy!</p>
+
+        </div>
+        <div class="col-md-3 text-center projects">
+
+            <a href="http://marydurkin.github.io/Art-in-Philly/" max-width ="200px" target="_blank"><img src="images/Art-in-Philly-sm.png"  class="img-responsive center-block" alt="Philly Art Map">
+            <h3>Art in Philly</h3></a>
+            <p>Customized, interactive map showing Philly's best art spots. Uses Google and Foursquare APIs</p>
+
+        </div>
+        <div class="col-md-3 text-center projects">
+
+            <a href="http://www.mainlinenewcomers.org" target="_blank"><img src="images/MLNC-sm.png"  class="img-responsive center-block" alt="MLNC Logo">
+            <h3 class="text-medium">MLNC</h3></a>
+            <p>Designed and built membersip site</p>
         </div>
       </div>
-      -->
-      <div class="row">
-        <div class="col-md-12">
-    	    <h2 class="text-medium">Recent Projects</h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4 text-center">
-          <!-- window  sill painting from google+ -->
-          <a href="http://marydurkin.github.io/frontend-nanodegree-arcade-game/" target="_blank"><img src="images/Frogger-sm.png"  class="img-responsive center-block" alt="frogger game">
-          <h3 class="text-uppercase">Frogger Game</h3>
-          <p><a class="text-medium" href="http://marydurkin.github.io/frontend-nanodegree-arcade-game/" target="_blank">HTML Canvas</a></p>
-        </div>
-        <div class="col-md-4 text-center">
-          <!-- Pig painting from Google + -->
-          <a href="http://marydurkin.github.io/Art-in-Philly/" max-width ="200px" target="_blank"><img src="images/Art-in-Philly-sm.png"  class="img-responsive center-block" alt="Philly Art Map">
-          <h3 class="text-uppercase">Philly's Best Art Spots</h3>
-          <p><a class="text-medium" href="http://marydurkin.github.io/Art-in-Philly/" target="_blank">Interactive Map</a></p>
-        </div>
-        <div class="col-md-4 text-center">
-          <!-- Bottles painting rom Google + -->
-          <a href="http://www.mainlinenewcomers.org" target="_blank"><img src="images/MLNC-sm.png"  class="img-responsive center-block" alt="MLNC Logo">
-          <h3 class="text-uppercase text-medium">MLNC</h3>
-          <p><a class="text-medium" href="http://mainlinenewcomers.org/" target="_blank">Membership Site
-          </a></p>
-        </div>
-      </div>
+
     </div>
+    <div class="container-fluid">
+      <footer class="navbar-fixed-bottom">
+        <div class="row row-centered">
+          <div class="col-md-4 text-center">
+            <a href="https://www.linkedin.com/in/mary-durkin-walsh" target="_blank"><img src="images/linkedin.png"  class="img-responsive center-block" alt="LinkedIn"></a>
+          </div>
+          <div class="col-md-4 text-center">
+            <a href="mailto:mary@marydurkinwalsh.com"><img src="images/message.png"  class="img-responsive center-block" alt="LinkedIn"></a>
+          </div>
+          <div class="col-md-4 text-center">
+            <a href="https://github.com/MaryDurkin" target="_blank"><img src="images/github.png"  class="img-responsive center-block" alt="GitHub"></a>
+          </div>
+        </div>
+        <div class="row">
+        </div>
+      </footer>
+    </div>
+  </body>
+
     <!-- Modal
     <div class="modal fade" id="large-pic" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog">
@@ -83,5 +98,5 @@
         </div>
       </div>
     </div> -->
-  </body>
+
 </html>
