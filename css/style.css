@@ -2,11 +2,6 @@ html {
     position: relative;
     min-height: 100%;
 }
-/*
-body {
-    margin-bottom: 60px /* Height of the footer
-}
-*/
 
 body {
 	height: 100%;
@@ -51,6 +46,11 @@ a {
 	color: #a9bdb1;
 }
 
+h6 {
+	color: #a9bdb1;
+	display: inline;
+}
+
 .container-fluid {
 	padding-left: 0;
 	padding-right: 0;
@@ -71,11 +71,8 @@ a {
 	background-color: rgba(73,73,77,0.9);
 }
 
-.about-me {
-	color: white;
-}
-
 .top-7 {
+	/*spacing between header row and projects */
 	margin-top: 7%;
 }
 .row-centered {
@@ -84,7 +81,6 @@ a {
 }
 
 .text-thin {
-
 	font-weight: 100;
 }
 
@@ -93,19 +89,7 @@ a {
 	font-weight: 400;
 }
 
-.text-uppercase{
-	font-family: 'Roboto', sans-serif;
-}
-
-.img-responsive.my-picture {
-  	max-width: 100%;
-  	padding: 20px;
-	vertical-align: bottom;
-	border-radius: 50%;
-}
-
 .name {
-	/*padding-top: 40px;*/
 	font-family: 'Shadows Into Light', cursive;
 	text-align: center;
 	padding-left: 20px;
@@ -116,6 +100,7 @@ a {
 .sub-header {
 	margin-left:7%;
 }
+
 .projects {
 	padding-top: 20px;
 	margin-left: 4%;
@@ -123,33 +108,24 @@ a {
 	margin-bottom: 20px;
 	background-color: rgba(73,73,77,0.9);
 	color: #a9bdb1;
-
 }
 
 .contact {
 	margin-left: 4%;
 	margin-right: 4%;
 }
-.profession {
-	padding-left: 20px;
+
+.credits {
+	margin-left: 10px;
+	color: #a9bdb1;
 }
 
 .blurb {
-
 	font-size: 24px;
 	padding-top: 20px;
 	padding-left: 10px;
 	color: #a9bdb1;
 	font-weight: 100;
-}
-
-.skills{
-	margin-left: 20%;
-	font-family: 'Shadows Into Light', cursive;
-	font-size: 24px;
-	color: #a9bdb1;
-	font-weight: 100;
-	background-color: rgba(73,73,77,0.9);
 }
 
  @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
