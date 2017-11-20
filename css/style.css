@@ -45,6 +45,9 @@ footer {
 a {
 	color: #a9bdb1;
 }
+a:hover {
+	color: white;
+}
 
 h6 {
 	color: #a9bdb1;
@@ -128,6 +131,7 @@ h6 {
 	color: #a9bdb1;
 	font-weight: 100;
 }
+
 
  @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
       /* For portrait layouts only */
