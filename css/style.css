@@ -42,15 +42,16 @@ footer {
     /* height: 60px  Example value */
 }
 
-a {
+a, a:link {
 	color: #a9bdb1;
-}
-a:hover {
-	color: #e1ede6;
 }
 a:visited {
   color: #d3e6ed;
 }
+a:hover {
+	color: #e1ede6;
+}
+
 
 h6 {
 	color: #a9bdb1;
