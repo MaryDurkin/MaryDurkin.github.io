@@ -80,7 +80,7 @@ h6 {
 
 .top-7 {
 	/*spacing between header row and projects */
-	margin-top: 7%;
+	margin-top: 3%;
 }
 .row-centered {
 	margin-left: 3%;
@@ -116,6 +116,13 @@ h6 {
 	background-color: rgba(73,73,77,0.9);
 	color: #a9bdb1;
 	max-width: 360px;
+}
+.iframe {
+	padding: 20px;
+	/*margin-bottom: 20px;*/
+	background-color: rgba(73,73,77,0.9);
+	color: #a9bdb1;
+
 }
 
 .contact {
